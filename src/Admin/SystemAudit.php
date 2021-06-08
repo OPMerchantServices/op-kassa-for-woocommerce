@@ -104,15 +104,15 @@ final class SystemAudit {
     }
 
     /**
-     * Checks whether the plugin has been connected to Kassa or not. Produces a warning.
+     * Checks whether the plugin has been connected to Checkout POS or not. Produces a warning.
      * 
      * @return bool
      */
     static private function check_kassa_connection() : bool {
         $oauth = new OAuth();
         if (!$oauth->is_oauth_active()) {
-            self::add_to_audit_messages(__('The OP Kassa-plugin has not yet been connected to Kassa.' .
-                ' Connect to Kassa in the plugin <a href="/wp-admin/admin.php?page=wc-settings&tab=kis"><b>settings</b></a>.', 
+            self::add_to_audit_messages(__('The Checkout POS-plugin has not yet been connected to Checkout POS.' .
+                ' Connect to Checkout POS in the plugin <a href="/wp-admin/admin.php?page=wc-settings&tab=kis"><b>settings</b></a>.',
                 'woocommerce-kis'), self::MESSAGE_TYPE_WARNING);
 
             return false;
@@ -350,7 +350,7 @@ final class SystemAudit {
 
         if ( !is_null( $q_config ) && !is_null( $q_config['hide_default_language'] ) ) {
             if ( $q_config['hide_default_language'] == false) {
-                self::add_to_audit_messages(__('qTranslate-plugin seems to be activated! To prevent issues with the OP Kassa-plugin, please select the <i>"Hide URL language information for default language."</i>-setting (if it is available) in the <i>"Settings"</i> -> <i>"Languages"</i> -> <i>"General"</i>.', 'woocommerce-kis'), 
+                self::add_to_audit_messages(__('qTranslate-plugin seems to be activated! To prevent issues with the Checkout POS-plugin, please select the <i>"Hide URL language information for default language."</i>-setting (if it is available) in the <i>"Settings"</i> -> <i>"Languages"</i> -> <i>"General"</i>.', 'woocommerce-kis'),
                 self::MESSAGE_TYPE_WARNING);
                 $is_check_successful = false;
             }
@@ -382,7 +382,7 @@ final class SystemAudit {
         if ( $system_audit_notice = get_transient( 'system-audit-notice-error' )) {
             ?>
             <div class="notice notice-error">
-                <p>OP Kassa: <?php echo '<b>' . __('Audit Failed:', 'woocommerce-kis') . '</b><br />' . $system_audit_notice; ?></p>
+                <p>Checkout POS: <?php echo '<b>' . __('Audit Failed:', 'woocommerce-kis') . '</b><br />' . $system_audit_notice; ?></p>
             </div>
             <?php
             delete_transient( 'system-audit-notice-error' );
@@ -394,7 +394,7 @@ final class SystemAudit {
         if ( $system_audit_notice = get_transient( 'system-audit-notice-warning' ) ) {
             ?>
             <div class="notice notice-warning is-dismissible">
-                <p>OP Kassa: <?php echo '<b>' . __('Audit Warnings:', 'woocommerce-kis') . '</b><br />' . $system_audit_notice; ?></p>
+                <p>Checkout POS: <?php echo '<b>' . __('Audit Warnings:', 'woocommerce-kis') . '</b><br />' . $system_audit_notice; ?></p>
             </div>
             <?php
             delete_transient( 'system-audit-notice-warning' );
@@ -403,7 +403,7 @@ final class SystemAudit {
         if ( $system_audit_notice = get_transient( 'system-audit-notice-success' ) ) {
             ?>
             <div class="notice notice-success is-dismissible">
-                <p>OP Kassa: <?php echo '<b>' . __('Audit Success!', 'woocommerce-kis') . '</b><br />' . $system_audit_notice; ?></p>
+                <p>Checkout POS: <?php echo '<b>' . __('Audit Success!', 'woocommerce-kis') . '</b><br />' . $system_audit_notice; ?></p>
             </div>
             <?php
             delete_transient( 'system-audit-notice-success' );

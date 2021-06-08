@@ -24,7 +24,7 @@ final class OrderInfoMetaBox {
     /**
      * Title shown on the box
      */
-    const META_BOX_TITLE = 'OP Kassa Tracking Information';
+    const META_BOX_TITLE = 'Checkout POS Tracking Information';
 
     /**
      * Prefix for WordPress post metadata keys

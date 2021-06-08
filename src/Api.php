@@ -129,8 +129,8 @@ class Api {
     /**
      * Add a meta query if the query parameters match.
      *
-     * This is used to find a Woo object through the API mathcing a specific Kassa type.
-     * For instance, Kassa purchases are marked with a meta key that is used
+     * This is used to find a Woo object through the API mathcing a specific Checkout POS type.
+     * For instance, Checkout POS purchases are marked with a meta key that is used
      * for fetching all orders created by KIS.
      *
      * @param array           $args    Key value array of query var to query value.

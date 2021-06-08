@@ -1,6 +1,6 @@
 <?php
 /**
- * This class is used to wrap the Kassa OAuth response data.
+ * This class is used to wrap the Checkout POS OAuth response data.
  */
 
 namespace CheckoutFinland\WooCommerceKIS;
@@ -8,7 +8,7 @@ namespace CheckoutFinland\WooCommerceKIS;
 /**
  * Class Merchant
  *
- * This class is used to wrap the Kassa OAuth response data.
+ * This class is used to wrap the Checkout POS OAuth response data.
  *
  * @package CheckoutFinland\WooCommerceKIS
  */

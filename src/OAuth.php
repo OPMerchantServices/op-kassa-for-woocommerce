@@ -304,7 +304,7 @@ class OAuth {
             $merchant         = new Merchant( (object) json_decode( $merchant_details ) );
 
             if ( ! $merchant->is_valid() ) {
-                $error_msg = __( 'Connecting to Kassa failed!', 'woocommerce-kis' );
+                $error_msg = __( 'Connecting to Checkout POS failed!', 'woocommerce-kis' );
                 $this->delete_oauth();
                 $this->notice->error( $error_msg );
                 return;

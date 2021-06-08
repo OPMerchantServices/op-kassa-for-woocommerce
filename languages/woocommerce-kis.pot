@@ -22,15 +22,15 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: src/Admin/SettingsPage.php:25
-msgid "OP Kassa"
+msgid "Checkout POS"
 msgstr ""
 
 #: src/Admin/SettingsPage.php:38
-msgid "OP Kassa Integration"
+msgid "Checkout POS Integration"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "WooCommerce Kassa Intergration"
+msgid "WooCommerce Checkout POS Intergration"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -38,7 +38,7 @@ msgid "https://git.vuola.net/pivo-kassa/wp-woocommerce-kis-plugin"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "This plugin integrates WooCommerce with OP Kassa."
+msgid "This plugin integrates WooCommerce with Checkout POS."
 msgstr ""
 
 #. Author of the plugin/theme

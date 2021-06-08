@@ -3,6 +3,9 @@
     margin-bottom: 0;
 }
 
+.kis-status-container #post-body-content {max-width: 500px; text-align: center;}
+.kis-status-container #post-body-content h2 {text-align: left;}
+
 .kis-oauth {
     /*width: 400px;*/
     max-width: 100%;
@@ -37,23 +40,29 @@
     position: absolute;
 }
 
-.kis-oauth__label--crossed:after {
-    content: "\f158";
+.kis-oauth__label--crossed:before {
+    content: "\f14c";
     color: #f44336;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
     font-family: 'dashicons';
-    font-size: 1.6rem;
-    position: absolute;
+    font-size: 1rem;
 }
 
 .kis-oauth__action {
     flex: 1;
 }
+#kis-oauth__action__connect-link {width: 150px;}
+ #mainform h2 {font-weight: 300; font-size: 22px;}
+
 
 .kis-merchant__details__row__cell--label {
     font-weight: bold;
     padding-right: 2rem;
+}
+.kis-audit-status-container .postbox, .setting-warning {
+    max-width: 480px;
+    padding: 10px;
 }
 
 .kis-audit-status-container .postbox h2 {
@@ -95,7 +104,6 @@
     pointer-events: none;
     opacity: 0.5;
 }
-
 .kis-oauth.disabled {
     opacity: 0.7;
     pointer-events: none;
@@ -146,3 +154,18 @@
 #kis_auth_settings-description .setting-warning.show {
     display: block;
 }
+.kis_test_environment_enabled_area, .system-test-checkbox {padding: 8px 12px; }
+#kis_tax_settings-description {max-width: 500px;}
+.options-container {margin-bottom: 10px;}
+.options-container label {font-weight: 500; font-size: 16px; display: inline-block; min-width: 150px;}
+.options-container select {min-width: 250px;}
+h4 {display: inline-block; max-width: 430px}
+.tax-notice {margin-left: 0px;}
+.kis_system_test_inside p {display: inline-block;}
+.kis_system_test_inside label{display: inline-block; width: 180px;  font-weight: 500; font-size: 16px; margin-right: 5px;}
+.kis_test_environment_enabled_area label {display: inline-block; width: 180px; font-weight: 500; font-size: 16px;}
+#mainform .system-test-checkbox h2 {padding: 0px;}
+.system-test-checkbox .auth-url-class {margin-left: 25px;}
+.system-test-checkbox strong {margin-bottom: 8px; display: inline-block; max-width: 430px;}
+.system-test-checkbox div {margin-left: 25px;}
+#mainform .system-test-checkbox  .auth-settings-title {margin-bottom: 20px;}
