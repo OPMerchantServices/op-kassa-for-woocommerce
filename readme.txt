@@ -1,36 +1,40 @@
-=== OP Kassa for WooCommerce ===
+=== Checkout POS for WooCommerce ===
 Contributors: loueranta
-Donate link: https://www.op-kauppiaspalvelut.fi
+Donate link: https://www.checkout.fi/pos
 Tags: woocommerce
 Requires at least: 4.9
-Tested up to: 5.6
-Stable tag: 2.0.1
+Tested up to: 5.7
+Stable tag: 3.0.0
 Requires PHP: 7.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
-Connect your [OP Kassa](https://www.op-kassa.fi) and WooCommerce to synchronize products, orders and stock levels between the systems.
+Connect your [Checkout POS](https://www.checkout.fi/pos) (formerly OP Kassa) and WooCommerce to synchronize products, orders and stock levels between the systems.
 
 == Description ==
 
-[OP Kassa](https://www.op-kassa.fi) is easy to use point of sale system for your omnichannel business with modern payment terminals, fast tablet based cashier and online admin system with extensive reporting. OP Kassa for WooCommerce allows you to synchronize products, orders and stock levels in realtime between your WooCommerce based online store and your physical stores.
+[Checkout POS](https://www.checkout.fi/pos) is easy to use point of sale system for your omnichannel business with modern payment terminals, fast tablet based cashier and online admin system with extensive reporting. Checkout POS for WooCommerce allows you to synchronize products, orders and stock levels in realtime between your WooCommerce based online store and your physical stores.
 
 == Installation ==
 
 Follow these easy steps to install the plugin:
 
 1. Log on to WordPress admin area and navigate to Plugins -> Add New.
-1. Type "OP Kassa for WooCommerce" to search field.
+1. Type "Checkout POS for WooCommerce" to search field.
 1. Install and activate the plugin from search results.
-1. Head over to WooCommerce -> Settings and click on the "OP Kassa" tab to configure the plugin.
+1. Head over to WooCommerce -> Settings and click on the "Checkout POS" tab to configure the plugin.
 
 == Frequently Asked Questions ==
 
-= I can't connect to OP Kassa? =
+= I can't connect to Checkout POS? =
 
-Head over to OP Kassa admin panel and make sure that you have activated the WooCommerce addon.
+Head over to Checkout POS admin panel and make sure that you have activated the WooCommerce addon.
 
 == Changelog ==
+
+= 3.0.0 =
+* New settings page
+* Rebranding from "OP Kassa" to "Checkout POS"
 
 = 2.0.1 =
 * Added OP Kassa integration authentication related settings.

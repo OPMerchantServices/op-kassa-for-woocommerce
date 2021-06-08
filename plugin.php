@@ -1,21 +1,21 @@
 <?php
 /**
-* Plugin Name: OP Kassa for WooCommerce
-* Plugin URI: https://github.com/OPMerchantServices/op-kassa-for-woocommerce 
-* Description: Connect your OP Kassa and WooCommerce to synchronize products, orders and stock levels between the systems.
-* Version: 2.0.1
+* Plugin Name: Checkout POS for WooCommerce
+* Plugin URI: https://github.com/CheckoutFinland/checkout-pos-for-woocommerce 
+* Description: Connect your Checkout POS (formerly OP Kassa) and WooCommerce to synchronize products, orders and stock levels between the systems.
+* Version: 3.0.0
 * Requires at least: 4.9
-* Tested up to: 5.6
+* Tested up to: 5.7
 * Requires PHP: 7.1
 * WC requires at least: 3.0
-* WC tested up to: 4.9
-* Author: OP Merchant Services
-* Author URI: https://www.op-kauppiaspalvelut.fi 
+* WC tested up to: 5.3
+* Author: Checkout Finland
+* Author URI: https://www.checkout.fi/pos 
 * Text Domain: op-kassa-for-woocommerce
 * Domain Path: /languages
 * License: MIT
 * License URI: https://opensource.org/licenses/MIT
-* Copyright: OP Merchant Services
+* Copyright: Checkout Finland
 */
 
 namespace CheckoutFinland\WooCommerceKIS;
