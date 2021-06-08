@@ -1,7 +1,7 @@
 {
-    "name": "op-merchant-services/op-kassa-for-woocommerce",
+    "name": "checkout-finland/checkout-pos-for-woocommerce",
     "type": "wordpress-plugin",
-    "description": "Connect your OP Kassa and WooCommerce to synchronize products, orders and stock levels between the systems.",
+    "description": "Connect your Checkout POS and WooCommerce to synchronize products, orders and stock levels between the systems.",
     "authors": [
         {
             "name": "Miika Arponen",
@@ -30,18 +30,18 @@
         }
     ],
     "support": {
-        "email": "asiakaspalvelu@op-kassa.fi",
-        "issues": "https://github.com/OPMerchantServices/op-kassa-for-woocommerce/issues",
-        "source": "https://github.com/OPMerchantServices/op-kassa-for-woocommerce"
+        "email": "kassatuki@checkout.fi",
+        "issues": "https://github.com/CheckoutFinland/checkout-pos-for-woocommerce/issues",
+        "source": "https://github.com/CheckoutFinland/checkout-pos-for-woocommerce"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:OPMerchantServices/op-kassa-for-woocommerce.git"
+            "url": "git@github.com:CheckoutFinland/checkout-pos-for-woocommerce.git"
           }
     ],
     "keywords": [
-        "wordpress", "woocommerce", "op kassa", "checkout finland"
+        "wordpress", "woocommerce", "op kassa", "checkout finland", "checkout pos"
     ],
     "license": "MIT",
     "autoload": {
