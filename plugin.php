@@ -15,7 +15,7 @@
 * Domain Path: /languages
 * License: MIT
 * License URI: https://opensource.org/licenses/MIT
-* Copyright: OP Merchant Services
+* Copyright: Checkout Finland
 */
 
 namespace CheckoutFinland\WooCommerceKIS;
